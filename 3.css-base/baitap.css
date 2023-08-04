@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* ----bai1---- */
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.hop2bai1{
+    text-align: center;
+    padding: 10px;
+}
+.hop2bai1 button{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+/* ----bai2---- */
+.hop1bai2 {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    color: white;
+    background-image: url(https://www.shadeaustralia.com.au/pub/media/magefan_blog/shutterstock_149818715-sq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hop1bai2 h3{
+    padding: 30px;
+}
+.hop1bai2 button{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+/* ----bai3---- */
+.hop1bai3{
+    text-align: center;
+}
+.hop2bai3{
+    margin: 30px;
+}
+/* ----bai4---- */
+.hop1bai4{
+    margin-left: 750px;
+    width: 350px;
+    height: 300px;
+    border: 2px;
+}
+.hop2bai4 input{
+    width: 350px;
+}
+textarea {
+    width: 350px;
+}
+.hop1bai4 button{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+/* ----bai5---- */
+.hop1bai5{
+    background-color: wheat;
+    width: 520px;
+    margin-left: 200px;
+    padding: 10px;
+}
+.hop1bai5 input{
+    width: 500px;
+    height: 30px;
+    padding: 10px 0px 10px; 
+}
+.hop1bai5 button{
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+
+

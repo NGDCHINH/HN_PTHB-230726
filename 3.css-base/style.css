@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.hop1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+.hop2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.hop3 {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+.hop4 {
+    background-color: beige;
+    text-align: center;
+    
+}
+.hop4 a{
+    text-decoration: none;
+    color: black;
+}
+input {
+    width: 600px;
+    height: 30px;
+    margin: 10px 0px 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+textarea{
+    width: 600px;
+    margin: 10px 0px 10px;
+}
+button{
+    width: 600px;
+    background-color: green;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+    color: white;
+}
