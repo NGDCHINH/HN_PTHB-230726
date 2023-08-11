@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.header-items1{
+    align-items: center;
+    display: flex ;
+}
+.header-items2{
+    display: flex;
+    align-items: center;
+}
+.sup1{
+    margin:5px
+}
+.sup2{
+    margin:5px
+}
+.img1{
+    border-radius: 20px;
+}
+.navi{
+    width: 60%;
+    margin-left: 200px;
+    margin: auto;
+    display: flex;
+}
+.navi a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    width: 60%;
+    height: 650px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px 150px auto;
+    grid-template-columns: 60%  40%;
+    gap: 20px;
+}
+.supbd2{
+    background-color: rgb(212, 195, 195);
+    margin: 5px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.input1{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.bd1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.bd2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.bd3{
+    height: 500px;
+    margin: 10px;
+    margin-right: 0px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgb(108, 108, 238);
+    border-radius: 5px;
+}
+.line1{
+    background-color: black;
+    height: 1px;
+    width: 80%;
+}
+.ui1{
+    display: flex;
+    gap: 20px;
+}
+.line2{
+    margin-top: 5px;
+    background-color: black;
+    width: 1px;
+    height: 25px;
+}
+.ui2-items1{
+    display: flex;
+    justify-content: space-between;
+}
+.ui2-items2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 166, 166);
+    border-radius: 5px;
+}
+.bd4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.list-cards{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.card1{
+    background-color: rgb(90, 90, 236);
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card2{
+    background-color: rgb(90, 236, 139);
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.credit-card{
+    display: flex;
+    gap: 10px;
+}
+.card1-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1{
+    display: flex;
+    gap: 20px;
+}
+.Kobiet{
+    background-color: blue;
+    border-radius: 10px;
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    background-color: white;
+    height: 50px;
+}
+ul li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(175, 163, 163);
+}
+.footer{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
