@@ -28,8 +28,8 @@ let DoC = parseInt(inputDoC);
 
 let DoF = ( DoC * (9 / 5) ) + 32;
 
-document.write("Độ F là:" + DoF)
-// bai 3 + bai 4
+// document.write("Độ F là:" + DoF)
+// // bai 3 + bai 4
 let pi = 3.14;
 let banKinh;
 
@@ -42,3 +42,10 @@ let chuVi = R * 2 * pi;
 
 document.write("Diện tích hình tròn là:" + dienTich);
 document.write("Chu vi hình tròn là:" + chuVi);
+
+// Bai tap JS basic
+// console.log("wellcome to Rikkei Academy");
+// prompt("mời bạn nhập số tuổi của mình");
+// document.write("Quyết tâm học lập trình javascript")
+// alert("Chào mừng bạn đến với học viện Rikkei Academy");
+// confirm("bạn đã đủ 18 tuổi chưa");

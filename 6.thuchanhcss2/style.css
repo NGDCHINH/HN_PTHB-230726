@@ -6,7 +6,7 @@
 .header{
     width: 60%;
     margin: auto;
-    margin-left: 300px;
+    margin-left: 370px;
     display: flex;
     justify-content: space-between;
     top: 0px;
@@ -140,7 +140,7 @@
     align-items: center;
 }
 .item1 input{
-    width: 100%;
+    width: 50%;
 }
 .item2{
     width: 100%;
@@ -208,6 +208,9 @@ li a{
         width: 100%;
     }
     .item1{
+        width: 100%;
+    }
+    .item1 input{
         width: 100%;
     }
     .Kobiet{
