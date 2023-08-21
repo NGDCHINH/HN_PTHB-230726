@@ -30,20 +30,29 @@
 
 // Bai tap cau lenh switch-case
 
-let thang = parseInt(prompt("Nhập vào tháng cần tính"));
+// let thang = parseInt(prompt("Nhập vào tháng cần tính"));
 
-switch (thang) {
-    case 1:
-        if (thang == 1 || thang == 3 || thang == 5 || thang == 7 || thang == 8 || thang == 10) {
-            document.write("Tháng " ,thang, " có 31 ngày") 
-        }
-        break;
-    case 2:
-            if (thang == 2) {
-                document.write("Tháng " ,thang, " có 28 ngày or 29 ngày") 
-            }
-            break;
-    default:
-        document.write("Tháng " ,thang, " có 30 ngày") 
-        break;
+// switch (thang) {
+//     case 1:
+//         if (thang == 1 || thang == 3 || thang == 5 || thang == 7 || thang == 8 || thang == 10) {
+//             document.write("Tháng " ,thang, " có 31 ngày") 
+//         }
+//         break;
+//     case 2:
+//             if (thang == 2) {
+//                 document.write("Tháng " ,thang, " có 28 ngày or 29 ngày") 
+//             }
+//             break;
+//     default:
+//         document.write("Tháng " ,thang, " có 30 ngày") 
+//         break;
+// }
+
+let soThu1 = parseInt(prompt("Nhập vào số đầu tiên"));
+// let soThu2 = parseInt(prompt("Nhập vào số thứ 2"));
+
+let luyThua = 0;
+for(let i = 1; i <= soThu1 ; i++){
+    luyThua += i;
+    document.write(luyThua);
 }
