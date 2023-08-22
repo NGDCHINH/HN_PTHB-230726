@@ -63,4 +63,10 @@
 
 // bai 4
 
+let text = prompt("nhập vào 1 đoạn text")
+
+let listText = text.split("")
+
+document.write(listText)
+
 
