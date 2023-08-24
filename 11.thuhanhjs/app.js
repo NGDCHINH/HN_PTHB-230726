@@ -30,6 +30,7 @@
 // }
 // document.write(min)
 
+//Bai 6
 // const listNumber = [3, 4, 6, -9, 10, -88, 2];
 // const inputNumber = +prompt("nhap vao day so bat ky");
 // let checking = listNumber.includes(inputNumber);
