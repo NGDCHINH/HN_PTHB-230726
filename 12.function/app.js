@@ -75,13 +75,15 @@
 //Bai tap Foot sang meter 
 // let inputNumber = parseFloat(prompt("nhập vào 1 số bất kỳ"))
 function footToMeter(inputNumber) {
-    let meter = 0.306 * inputNumber
+    let meter = 0.305 * inputNumber
     document.write("<br />",inputNumber,"bằng",meter,"m","<br />")
+    return meter
 }
 
 function meterToFoot(inputNumber) {
     let foot = 3.278 * inputNumber
     document.write(inputNumber,"bằng",foot,"ft")
+    return foot
 }
 
 for (let i = 1 ; i <= 20 ; i++){
