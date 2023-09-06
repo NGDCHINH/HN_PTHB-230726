@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- bai 1 -->
+    <div class="exercise">
+      <div class="exercise-title">
+        Khi nhấp vào nút Cất cánh, dòng chữ <code>Tàu con thoi đang ở trên mặt đất</code> sẽ chuyển thành
+        <code>Houston, chúng ta đã cất cánh!</code>. Nút Cất cánh có thuộc tính id="liftoffButton".
+      </div>
+      <div class="exercise-content">
+        <button id="liftoffButton">Cất cánh</button>
+        <div class="exercise-1">Tàu con thoi đang ở trên mặt đất</div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <div class="exercise-title">
+        Khi con trỏ của người dùng đi qua nút Hủy bỏ nhiệm vụ, nền của nút sẽ chuyển sang màu đỏ. Nút Hủy bỏ nhiệm vụ có
+        id="abortMission".
+      </div>
+      <div class="exercise-content">
+        <button id="abortMission1">Hủy bỏ nhiệm vụ</button>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <div class="exercise-title">
+        Khi người dùng nhấp vào nút Hủy bỏ nhiệm vụ, hãy tạo một cửa sổ xác nhận có nội dung
+        <code>Bạn có chắc chắn muốn hủy bỏ nhiệm vụ không?</code>. Nếu người dùng xác nhận rằng họ muốn hủy bỏ, văn bản
+        sẽ chuyển thành <code>Nhiệm vụ bị hủy bỏ! Tàu con thoi trở về nhà.</code>
+      </div>
+      <div class="exercise-content">
+        <button id="abortMission2">Hủy bỏ nhiệm vụ</button>
+        <div id="message"></div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <div class="exercise-title">
+        Khi click button submit. lấy các giá trị của Họ và Tên lấy hiển thị xuống bên dưới
+      </div>
+      <div id="exercise-content" class="exercise-content">
+        <input id="fristName" type="text" />
+        <input id="lastName" type="text" />
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <div class="exercise-title">
+        Viết hàm JavaScript để lấy giá trị của các thuộc tính href, hreflang, rel, target và type của liên kết bên dưới
+        và hiển thị ra theo dạng danh sách dạng <code>{nameAttribute} : {value} </code>
+      </div>
+      <div class="exercise-content">
+        <a
+          id="w3r"
+          type="text/html"
+          hreflang="en-us"
+          rel="nofollow"
+          target="_self"
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          >learn JavaScript here
+        </a>
+        <div>result :</div>
+        <ul id="result"></ul>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <div class="exercise-title">thêm hàng vào một bảng</div>
+      <div class="exercise-content">
+        <table id="sampleTable" border="1">
+          <tr>
+            <td>Row1 cell1</td>
+            <td>Row1 cell2</td>
+          </tr>
+          <tr>
+            <td>Row2 cell1</td>
+            <td>Row2 cell2</td>
+          </tr>
+        </table>
+        <br />
+        <button id="addRows" type="button" value="Insert row">Add Row</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

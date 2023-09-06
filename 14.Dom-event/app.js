@@ -20,13 +20,13 @@
 //     }
 // },1000)
 
-let endDate = new Date("September 23,2023 07:00:00").getTime()
+let endDate = new Date( "Aug 31, 2023 00:00:00" ).getTime()
 console.log(endDate)
 let cd = setInterval(()=>{
     let now = new Date().getTime()
     let demNguoc = endDate - now
     console.log(demNguoc)
-    let hours = Math.floor(demNguoc % (24 * 60 * 6 * 1000)/(60 * 60 * 1000))
+    let hours = Math.floor(demNguoc % (24 * 60 * 60 * 1000)/(60 * 60 * 1000))
     let minutes = Math.floor(demNguoc % (60 * 60 * 1000)/(60 * 1000))
     let seconds = Math.floor(demNguoc % (60 * 1000) / 1000)
     let gio = document.getElementById("Gio").innerHTML = hours

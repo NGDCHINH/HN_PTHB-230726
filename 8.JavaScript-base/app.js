@@ -42,6 +42,13 @@ let chuVi = R * 2 * pi;
 
 document.write("Diện tích hình tròn là:" + dienTich);
 document.write("Chu vi hình tròn là:" + chuVi);
+// bai 
+let a = parseInt(prompt("Nhập vào số thứ nhất"))
+let b = parseInt(prompt("Nhập vào số thứ hai"))
+
+if (b / a == 0){
+    alert(`${a} là bội số của ${b}`)
+} alert(`${a} ko là bội số của ${b}`)
 
 // Bai tap JS basic
 // console.log("wellcome to Rikkei Academy");

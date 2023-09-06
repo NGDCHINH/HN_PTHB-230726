@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.exercise {
+  width: 500px;
+  margin: auto;
+  border: 1px solid rgb(119, 161, 119);
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.exercise-title {
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: rgb(139, 220, 139);
+  cursor: pointer;
+
+}
+
+.exercise-content {
+  border: 1px solid green;
+  padding: 30px;
+  border-radius: 12px;
+}
