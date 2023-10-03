@@ -12,6 +12,8 @@ window.addEventListener("load", ()=>{
     status.value = sanPhamUpdate.status
     const money = document.getElementById('exampleInputMoney1');
     money.value = sanPhamUpdate.money
+    const img = document.getElementById(`exampleInputImage1`)
+    img.value = sanPhamUpdate.img
 })
 
 const update = document.getElementById("btnUpdate")
@@ -20,6 +22,7 @@ update.addEventListener("click" , ()=>{
     const nsx = document.getElementById('exampleInputNSX1').value;
     const status = document.getElementById('exampleInputStatus1').value;
     const money = document.getElementById('exampleInputMoney1').value;
+    const img = document.getElementById(`exampleInputImage1`).value
 
     const sanPham = getItemInLocal(SANPHAM)
     const idEdit = getItemInLocal(ID_EDIT)
@@ -29,6 +32,7 @@ update.addEventListener("click" , ()=>{
             item.nsx = nsx;
             item.status = status;
             item.money = money;
+            item.img = img;
         } 
         return item
     })

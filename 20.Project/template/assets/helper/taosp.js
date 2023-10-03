@@ -1,9 +1,11 @@
-import { randomId } from "./helper.js"
+import { authpage, randomId } from "./helper.js"
 
+authpage()
 const tenSP = document.getElementById('exampleInputHang1');
 const nsx = document.getElementById('exampleInputNSX1');
 const status = document.getElementById('exampleInputStatus1');
 const money = document.getElementById('exampleInputMoney1');
+const img = document.getElementById(`exampleInputImage1`)
 
 const btnC = document.getElementById("btnCreate");
 
@@ -12,12 +14,14 @@ btnC.addEventListener("click", ()=>{
     const nsxValue = nsx.value;
     const statusValue = status.value;
     const moneyValue = money.value;
+    const imgValue = img.value
 
     const newSanPham = {
         tenSP : tenSPValue,
         nsx : nsxValue,
         status : statusValue,
         money : moneyValue,
+        img : imgValue,
         id : randomId()
     }
 

@@ -1,5 +1,6 @@
-import { ID_EDIT, setItemInLocal } from "../helper/helper.js"
+import { ID_EDIT, setItemInLocal,authpage, LOGIN, getItemInLocal } from "../helper/helper.js"
 
+authpage()
 
 window.addEventListener("load", ()=>{
     const sanPhamString = localStorage.getItem("SanPham")
@@ -40,7 +41,7 @@ window.addEventListener("load", ()=>{
 
         //tao td 4
         const td4 = document.createElement("td")
-        td4.innerText = sanPhamList.money
+        td4.innerText = sanPhamList.money + "$"
         tr.appendChild(td4)
 
         //tao td 5
@@ -71,6 +72,14 @@ window.addEventListener("load", ()=>{
         tr.appendChild(td5)
         tBody.appendChild(tr)
     }
+    
 
+})
 
+const logout = document.getElementById("logout")
+logout.addEventListener("click",()=>{
+    const listLog = JSON.parse(getItemInLocal(LOGIN))
+    if(listLog){
+        localStorage.removeItem(LOGIN)
+    }
 })

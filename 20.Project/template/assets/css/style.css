@@ -14996,7 +14996,7 @@ dl {
           -webkit-transition-duration: 0.45s;
           transition-duration: 0.45s; }
       .sidebar .nav .nav-item.active {
-        background: inherit; }
+        background: blue; }
         .sidebar .nav .nav-item.active > .nav-link {
           font-weight: 500; }
           .sidebar .nav .nav-item.active > .nav-link .menu-title {
@@ -15482,4 +15482,8 @@ dl {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1; }
+/* .active{
+  background-color: #0056b3;
+  width: 100%;
+} */
 /*# sourceMappingURL=style.css.map */
